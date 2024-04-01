@@ -1,0 +1,63 @@
+body {
+    width: 100%;
+    margin: auto;
+}
+
+a:link {
+    color: rgb(25, 30, 36);
+    text-decoration: none;
+}
+  
+  /* visited link */
+a:visited {
+    color: rgb(238, 238, 238);
+    text-decoration: none;
+}
+  
+  /* mouse over link */
+a:hover {
+    color: rgb(71, 79, 92);
+    text-decoration: none;
+}
+
+nav{
+    color: rgb(25, 30, 36);
+    font-family: "Protest Revolution", sans-serif;
+    font-size: 10pt;
+    padding: 20px;
+    padding-left: 50px;
+}
+
+footer {
+    background-color: rgb(118, 171, 174);
+    width: 100%;
+    height: fit-content;
+}
+
+.content {
+    color: rgb(25, 30, 36);
+    font-family: 'Arial Narrow Bold', sans-serif;
+    font-size: 15pt;
+}
+
+#album-name {
+    color: rgb(118, 171, 174);
+    font-family: "Protest Revolution", sans-serif;
+    font-style: italic;
+    font-size: 28pt;
+    margin-top: auto;
+}
+
+#grad1 {
+    height: fit-content;
+    background-image: linear-gradient(to bottom, rgba(238, 238, 238, 0.5), rgba(71, 79, 92, 1.0));
+    padding: 50px;
+}
+
+#header {
+    color: black;
+    font-family: "Joan", sans-serif;
+    font-size: 36pt;
+    font-weight: bold;
+    text-align: left;
+}
