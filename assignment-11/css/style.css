@@ -44,9 +44,9 @@ header {
     width: 75%;
     background-image: linear-gradient(to bottom, #EDE7E3, #16697A );
     padding: 40px;
-    float: center;
+    float: right;
 }
 
 #image {
-    float: center;
+    float: left;
 }
