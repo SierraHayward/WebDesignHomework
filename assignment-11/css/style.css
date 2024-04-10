@@ -28,7 +28,21 @@ nav{
 
 header {
     background-color: #FFA62B;
+    width: 100%;
     padding: 10px;
+}
+
+#image {
+    width: 10%;
+    float: left;
+}
+
+#grad1 {
+    height: fit-content;
+    width: 90%;
+    background-image: linear-gradient(to bottom, #EDE7E3, #16697A );
+    padding: 48px;
+    float: right;
 }
 
 #title {
@@ -37,16 +51,4 @@ header {
     font-weight: 800;
     font-size: 80pt;
     text-align: center;
-}
-
-#grad1 {
-    height: fit-content;
-    width: 49%;
-    background-image: linear-gradient(to bottom, #EDE7E3, #16697A );
-    padding: 40px;
-    float: left;
-}
-
-#image {
-    float: right;
 }
