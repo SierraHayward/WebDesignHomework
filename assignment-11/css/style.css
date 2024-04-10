@@ -41,7 +41,7 @@ header {
 
 #grad1 {
     height: fit-content;
-    width: 48%;
+    width: 59%;
     background-image: linear-gradient(to bottom, #EDE7E3, #16697A );
     padding: 40px;
     float: left;
@@ -49,5 +49,5 @@ header {
 
 #image {
     float: right;
-    height: 585px;
+    width: 685px;
 }
