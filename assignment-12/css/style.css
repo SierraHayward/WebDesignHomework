@@ -1,0 +1,119 @@
+body {
+    width: auto;
+}
+
+a:link {
+    color: #12100E;
+    text-decoration: none;
+}
+  
+  /* visited link */
+a:visited {
+    color: #FFD972;
+    text-decoration: none;
+}
+  
+  /* mouse over link */
+a:hover {
+    color: #12100E;
+    text-decoration: none;
+}
+
+header {
+    background-color: #12100E;
+    font-family: "Cutive Mono", monospace;
+}
+
+.menu {
+    font-family: "Cutive Mono", monospace;
+    font-size: 24pt;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.menu-item {
+    background-color: #54C6EB;
+    border-bottom: 5px solid #12100E;
+    font-size: 14pt;
+    padding: 10px;
+}
+
+.display-inline-block {
+    display: inline-block;
+}
+
+.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #FFD972;
+    border: 1px solid #12100E;
+}
+.dropdown-content a {
+    color: #12100E;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-item {
+    display: block;
+    text-align: left;
+    padding: 10px;
+}
+
+.dropdown-item:hover, .dropdown-item:hover a {
+    background-color: #54C6EB;
+    color: #FFD972;
+}
+
+.outer-box {
+    width: auto;
+    background-color: #ef9696;
+}
+
+.hidden-fox {
+    display: none;
+    padding-top: 80px;
+    float: right;
+}
+
+.outer-box:hover .hidden-fox {
+    display: block;
+    overflow: visible;
+}
+
+.content {
+    width: auto;
+    background-color: rgb(255, 255, 255)
+}
+
+#title {
+    color: #54C6EB;
+    font-family: "Rock Salt", cursive;
+    font-size: 45pt;
+    text-align: center;
+    margin: 10px;
+}
+
+h2 {
+    color: #54C6EB;
+    font-family: "Rock Salt", cursive;
+    font-size: 20pt;
+    text-align: left;
+    padding-left: 15px;
+}
+
+.error-box p {
+    width: auto;
+}
+.error-box .absolute-image {
+    background-color: transparent;
+    position: absolute;
+    top: 250px;
+    right: 500px;
+}
