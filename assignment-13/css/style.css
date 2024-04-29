@@ -1,0 +1,161 @@
+* {
+    box-sizing: border-box;
+  }
+
+body {
+    background-color: #F6F0ED;
+}
+
+.image1 {
+    content: url(../images/azawakh-tabiri-head.jpg);
+    height: 400px;
+    padding: 20px;
+    float: right;
+}
+
+
+.image2 {
+    content: url(../images/azawakh-obi.jpg);
+    height: 450px;
+    padding-right: 20px;
+    float: left;
+}
+
+.image3 {
+    content: url(../images/azawakh-amalu-standing.jpg);
+    height: 500px;
+    padding-left: 20px;
+    float: right;
+}
+
+.image4 {
+    content: url(../images/azawakh-tabiri-movement.jpg);
+    height: 200px;
+    padding-left: 5px;
+    float: right;
+}
+
+.image5 {
+    content: url(../images/azawakh-kili.jpg);
+    height: 200px;
+    padding-left: 5px;
+    float: right;
+}
+
+.image6 {
+    content: url(../images/azawakh-amalu-running.jpg);
+    height: 300px;
+    padding-left: 20px;
+    float: right;
+}
+
+.image7 {
+    content: url(../images/azawakh-anubi-running.jpg);
+    height: 400px;
+    padding-right: 20px;
+    float: left;
+}
+
+.image8 {
+    content: url(../images/azawakh-tabiri-running.jpg);
+    height: 200px;
+    padding-left: 20px;
+    float: right;
+}
+
+header {
+    position: sticky;
+    margin-top: 0;
+    top: 0px;
+    width: 100%;
+    background-color: #1F5673;
+    font-family: "Cutive Mono", monospace;  
+    text-align: right;
+    text-transform: uppercase;
+}
+
+@media only screen and (max-width: 800px) {
+    header {
+        background-color: #7EA8BE; 
+        text-align: left;
+    }
+}
+
+.menu-item {
+    display: inline-block;
+    text-align: center;
+    font-size: 16pt;
+    padding: 10px;
+}
+
+.menu-item a {
+    color: #F6F0ED;
+    text-decoration: none;
+}
+
+.menu-item:hover {
+    background-color: #12100E;
+    text-decoration: none;
+}
+
+.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #1F5673;
+    border: 1px solid #F6F0ED;
+}
+
+@media only screen and (max-width: 800px) {
+    .dropdown-content {
+        background-color: #7EA8BE;
+    }
+}
+
+.dropdown-content a {
+    color: #12100E;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-item {
+    display: block;
+    text-align: left;
+    padding: 10px;
+}
+
+.dropdown-item:hover, .dropdown-item:hover a {
+    background-color: #12100E;
+    color: #F6F0ED;
+}
+
+.col-1 {width: 8%;}
+.col-2 {width: 16%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33%;}
+.col-5 {width: 40%;}
+.col-6 {width: 56%;}
+.col-7 {width: 60%;}
+.col-8 {width: 70%;}
+.col-9 {width: 75%;}
+.col-10 {width: 82%;}
+.col-11 {width: 95%;}
+.col-12 {width: 100%;}
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+    font-family: "Cutive Mono", monospace;
+    font-size: 14pt;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
